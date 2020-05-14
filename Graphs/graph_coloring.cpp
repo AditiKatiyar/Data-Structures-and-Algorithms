@@ -38,15 +38,15 @@ void printGraph(vector<vector<int> > graph) {
 
 int main() {
 	
-	int n;
-	cin >> n;
+	int n; // number of vertices
+	cin >> n; 
 	vector<vector<int> > graph;
 	for (int i=0 ; i<n ; i++) {
 		vector<int> v;
 		graph.push_back(v);
 	}
 
-	int e;
+	int e; // number of edges
 	cin >> e;
 	while (e--) {
 		int n1, n2;
